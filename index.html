@@ -7,6 +7,7 @@
     <title>Product Listing</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" href="./assets/img/logo.png">
 </head>
 <body>
     <!-- Header -->
@@ -14,22 +15,26 @@
         <div class="header_container">
             <div class="header_list-right">
                 <ul>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Offers</a></li>
-                    <li><a href="">Our story</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="#!">Shop</a></li>
+                    <li><a href="#!">Offers</a></li>
+                    <li><a href="#!">Our story</a></li>
+                    <li><a href="#!">Blog</a></li>
                 </ul>
             </div>
             <div class="header_logo">
-                <img src="./assets/img/logo.png" alt="logo">
+                <a href="#!"><img src="./assets/img/logo.png" alt="logo"></a>
             </div>
             <div class="header_list-left">
                 <span type="button" class="header_list-left-text">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="Search product...">
                 </span>
-                <span class="header_list-left-cart"><img src="./assets/img/cart.png" alt="Cart"></span>
-                <span class="header_list-left-user"><img src="./assets/img/user.png" alt="User"></span>
+                <span class="header_list-left-cart">
+                    <a href="#!"><img src="./assets/img/cart.png" alt="Cart"></a>
+                </span>
+                <span class="header_list-left-user">
+                    <a href="#!"><img src="./assets/img/user.png" alt="User"></a>
+                </span>
             </div>
         </div>
     </header>
@@ -61,14 +66,16 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <input type="text" placeholder="Search product...">
                     </span>
-                    <span class="product_head-search-item-2">Sort by<i class="fa-solid fa-bars"></i></span>
+                    <span class="product_head-search-item-2">
+                        <a href="#!">Sort by<i class="fa-solid fa-bars"></i></a>
+                    </span>
                 </div>
             </div>
             
             <!-- Product body -->
             <div class="product_body">
                 <ul class="product_body-list">
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item best_seller">
                         <a href=""><img src="./assets/img/product_body1.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -80,7 +87,7 @@
                             <img src="./assets/img/product_cart.png" alt="Cart">
                         </div>
                     </li>
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item best_seller">
                         <a href=""><img src="./assets/img/product_body2.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -92,7 +99,7 @@
                             <img src="./assets/img/product_cart.png" alt="Cart">
                         </div>
                     </li>
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item best_seller">
                         <a href=""><img src="./assets/img/product_body3.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -104,7 +111,7 @@
                             <img src="./assets/img/product_cart.png" alt="Cart">
                         </div>
                     </li>
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item best_seller">
                         <a href=""><img src="./assets/img/product_body4.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -125,7 +132,7 @@
                             <img src="./assets/img/product_cart.png" alt="Cart">
                         </div>
                     </li>
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item new">
                         <a href=""><img src="./assets/img/product_body6.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -155,7 +162,7 @@
                             <img src="./assets/img/product_cart.png" alt="Cart">
                         </div>
                     </li>
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item new">
                         <a href=""><img src="./assets/img/product_body9.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -185,7 +192,7 @@
                             <img src="./assets/img/product_cart.png" alt="Cart">
                         </div>
                     </li>
-                    <li class="product_body-list-item">
+                    <li class="product_body-list-item new">
                         <a href=""><img src="./assets/img/product_body12.png" alt=""></a>
                         <h4>Product title</h4>
                         <p>Labore sint ipsum dolore mollit</p>
@@ -199,7 +206,112 @@
                     </li>
                 </ul>
             </div>
+
+             <!-- Product Next Page -->
+            <div class="product_next_page">
+                <div class="product_next_page-item">
+                    <img src="./assets/img/product_prev.png" alt="prev">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <img src="./assets/img/product_next.png" alt="next">
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_container">
+            <section class="footer_content-left">
+                <section class="footer_content-left-list">
+                    <h2 class="footer_content-left-heading">About</h2>
+                    <ul class="footer_content-list-item">
+                        <li>
+                            <a href="#!">Home</a>
+                        </li>
+                        <li>
+                            <a href="#!">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#!">Our story</a>
+                        </li>
+                        <li>
+                            <a href="#!">Blogs</a>
+                        </li>
+                        <li>
+                            <select name="select" id="select">
+                                <option value="English">English</option>
+                                <option value="TiegViet">Tiếng Việt</option>
+                                <option value="France">France</option>
+                            </select>
+                            <i class="fa-solid fa-angle-down icon_select"></i>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer_content-left-list">
+                    <h2 class="footer_content-left-heading">Help</h2>
+                    <ul class="footer_content-list-item">
+                        <li>
+                            <a href="#!">Shipping & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#!">Track Order</a>
+                        </li>
+                        <li>
+                            <a href="#!">FAQs</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer_content-left-list">
+                    <h2 class="footer_content-left-heading">Contact</h2>
+                    <ul class="footer_content-list-item">
+                        <li>
+                            <a href="#!">Phone:</a>
+                        </li>
+                        <li>
+                            <a href="tel:1234567893" tel="1234567893" class="footer_content-list-item-tel">(+1) 123 456 7893</a>
+                        </li>
+                        <li>
+                            <a href="#!">Email:</a>
+                        </li>
+                        <li>
+                            <a href="mailto:name@email.com" class="footer_content-list-item-email">name@email.com</a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="footer_content-right">
+                <section class="footer_content-right-list">
+                    <h2>Recieve new promotions</h2>
+                    <p>Duis ea tempor commodo amet reprehende</p>
+                    <div class="footer_content-right-list-input">
+                        <span class="footer_content-right-list-email">
+                            <span>
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="text" placeholder="Input your email">
+                            </span>
+                            <input type="submit" value="Subscribe">
+                        </span>
+                    </div>
+                    <div class="footer_content-right-list-icon">
+                        <a href="#!"><img src="./assets/img/Twitter 1.png" alt="twitter"></a>
+                        <a href="#!"><img src="./assets/img/Facebook 1.png" alt="facebook"></a>
+                        <a href="#!"><img src="./assets/img/LinkedIn 1.png" alt="linkedln"></a>
+                        <a href="#!"><img src="./assets/img/YouTube 1.png" alt="youtube"></a>
+                    </div>
+                    <div class="footer_content-right-list-copyright">
+                        <p>© 2022 Brand, Icn.</p>
+                        <ul>
+                            <li>Privacy</li>
+                            <li>Terms</li>
+                            <li>Sitemap</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
