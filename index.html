@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="header_container">
             <div class="header_list-right">
@@ -23,33 +24,43 @@
                 <img src="./assets/img/logo.png" alt="">
             </div>
             <div class="header_list-left">
-                <button type="button" class="header_list-left-button">
-                    <i class="fa-solid fa-magnifying-glass"></i>Search product
-                </button>
-                <span class="header_list-left-cart"><i class="fa-solid fa-cart-shopping"></i>Cart (0)</span>
-                <span class="header_list-left-user"><i class="fa-regular fa-user"></i></span>
+                <span type="button" class="header_list-left-text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search product...">
+                </span>
+                <span class="header_list-left-cart"><img src="./assets/img/cart.png" alt=""></span>
+                <span class="header_list-left-user"><img src="./assets/img/user.png" alt=""></span>
             </div>
         </div>
     </header>
-    <div class="body_bacground" style="background-image: url(./assets/img/background-body.png); height: 400px; background-repeat: no-repeat;">
-        <div class="body_bacground-content">
-            <h1>Gift for your skin</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo <br> inventore excepturi aut deleniti, magni illum.</p>
+
+    <!-- BackGround Body -->
+    <div class="body_bacground">
+        <div class="body_background-img" style="background-image: url(./assets/img/background-body.png);">
+            <div class="body_bacground-content">
+                <h1>Gift for your skin</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo <br> inventore excepturi aut deleniti, magni illum.</p>
+            </div>
         </div>
     </div>
+
+    <!-- Product -->
     <div class="product">
         <div class="product_container">
             <div class="product_head">
                 <div class="product_head-find">
-                    <ul>
+                    <ul class="product_head-find-list">
                         <li><a href="">All Product</a></li>
-                        <li><a href=""></a>Face</li>
-                        <li><a href=""></a>Body</li>
+                        <li><a href="">Face</a></li>
+                        <li><a href="">Body</a></li>
                     </ul>
                 </div>
                 <div class="product_head-search">
-                    <button><i class="fa-solid fa-magnifying-glass"></i>Search product</button>
-                    <span>Sort by<i class="fa-solid fa-bars"></i></span>
+                    <span class="product_head-search-item-1">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search product...">
+                    </span>
+                    <span class="product_head-search-item-2">Sort by<i class="fa-solid fa-bars"></i></span>
                 </div>
             </div>
         </div>
